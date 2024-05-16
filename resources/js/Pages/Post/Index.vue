@@ -13,6 +13,7 @@
         <tr v-for="post in posts" :key="post.id">
           <td>{{ post.title }}</td>
           <td>{{ post.body }}</td>
+          <td> <Link :href="`posts/${post.id}/description`">Read more ...</Link></td>
         </tr>
       </tbody>
     </table>

@@ -9,13 +9,13 @@
 </template>
 
 <script setup>
-import { useForm } from "@inertiajs/vue3";
-const form = useForm({
-  title: "",
-  body: "",
-});
-const submit = () => {
-  form.post("/posts");
-};
+  import { useForm } from "@inertiajs/vue3";
+  const form = useForm({
+    title: "",
+    body: "",
+  });
+  const submit = () => {
+    form.post("/posts");
+  };
 </script>
 <style lang="scss" scoped></style>

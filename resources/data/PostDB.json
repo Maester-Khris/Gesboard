@@ -1,12 +1,1 @@
-[
-    {
-        "id": 1,
-        "title": "What the fuck is ",
-        "body": "Enjoying a beautiful day at the park!"
-    },
-    {
-        "id": 2,
-        "title": "I am so wealthy now!!",
-        "body": "Yeah, the bank account is full"
-    }
-]
+[{"id":1,"title":"What the fuck is ","body":"Enjoying a beautiful day at the park!"},{"id":2,"title":"I am so wealthy now!!","body":"Yeah, the bank account is full"},{"id":3,"title":"A new post for my clients","body":"About whatever you want"},{"id":4,"title":"Enough !","body":"What the fuck is you talking about bro ?!"},{"title":"My G's","body":"Respect y'al !!","id":4},{"title":"Another One","body":"This is Dj Khaled","id":9}]
