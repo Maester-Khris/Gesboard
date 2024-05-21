@@ -9,6 +9,10 @@ use Inertia\Inertia;
 class DashController extends Controller
 {
     public function index(){
+        return Inertia::render('Home');
+    }
+    
+    public function list(){
         $filepath = resource_path('data/PostDB.json');
         $jsoncontent= file_get_contents($filepath);
         $data = json_decode($jsoncontent,true);

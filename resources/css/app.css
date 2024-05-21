@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.jumbotron{
+    padding-bottom: 15px;
+}

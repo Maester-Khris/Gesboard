@@ -22,4 +22,5 @@ use Inertia\Inertia;
 Route::get('/', [DashController::class, 'index']);
 Route::get('/posts/{id}/description', [DashController::class, 'show']);
 Route::post('/posts', [DashController::class, 'store']);
+Route::get('/posts', [DashController::class, 'list']);
 Route::get('/posts/create', [DashController::class, 'create']);
